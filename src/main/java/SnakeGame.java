@@ -53,7 +53,7 @@ public class SnakeGame extends JPanel implements ActionListener, KeyListener {
         random = new Random();
         placeFood();
 
-        gameLoop = new Timer(50, this);
+        gameLoop = new Timer(100, this);
         gameLoop.start();
 
         // Calculate the total number of tiles
